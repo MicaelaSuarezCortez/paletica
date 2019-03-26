@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+	margin:0;
+	padding: 0;
+}
+/*estilos*/
+html,
+body,
+header,
+#intro{
+	height: 100%;	
+}
+#intro{
+	background-image: url("../imagenes/doñapepa.jpg");
+	background-repeat:no-repeat; 
+	-webkit-background-size:cover;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 40%;
+  text-align: center; 
+}
+
+.caption span.border {  
+  color: #000;
+  padding: 18px;
+  font-size: 40px;
+  letter-spacing: 10px;
+
+}
+.border{
+	font-family: 'Great Vibes', cursive;
+}
+
+/*para la seccion de navegacion*/
+
+.navbar{
+	background-color: transparent;
+	border-color: transparent;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+		
+}
+.navbar li{
+	padding-right: 10px;
+	padding-left: 10px;	
+}
+.navbar-default .navbar-nav>li>a{
+	color: #000;	
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>.active>a{
+	color:#fb8001;
+	background-color:transparent;	
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #6a214e;
+}
+.bg-inverse1{
+background-color: #ffdfc3;
+}
+
+
+.footer{
+	margin-top: 0px;
+	background-color: #ffaec8;
+	padding-top: 5px;	
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+
+}
+
+/*para quitar las viñetas de la etiqueta li del footer*/
+ li{
+	display: block;
+	margin-top: 5px;
+
+}
+
+#logo{
+	display: inline-block;
+	max-width: 25%;
+	max-height: 25%;
+	
+}
+/*logo del footer*/
+
+
+/*para el icono de facebook*/
+.social-icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon li{
+  display: inline-block;
+  text-align: center;
+
+}
+
+.social-icon a {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 50%;
+  margin-right: 25px;
+ background: rgba(255, 255, 255, 1.85); /* social icon background color */
+  color: #000; /* social icon color */
+}
+
+.social-icon a:hover {
+  background: rgba(92, 15, 126, 0.6); /* social icon hover background color */
+  color: #fff; /* social icon hover color */
+}
+/*sección de nosotros*/
+.row{
+	margin-top: 30px
+}
+
+.quienes_somos a{
+	text-decoration: none; 
+	color: #fb8001;
+}
+
+#nosotros_img{
+margin-top: 10px;
+ max-height: 100%;
+ max-width: 90%;	
+ border-radius: 100px;
+ border:15px dotted #34d2e7;
+
+}
+.subTituloNosotros{
+	margin-top: 50px;	
+	text-align: center;
+	font-family: 'Handlee', cursive;	
+	font-size: 20px;
+	color: #34d2e7;
+	letter-spacing: 3px;
+}
+
+.nosotros_texto{
+	padding: 0px 80px 20px 80px; 
+	font-family: 'Handlee', cursive;
+	font-size: 18px;
+	color: black;
+	letter-spacing: 2px;
+	text-align: justify;
+	
+}
+
+/*Nuestras paleticas*/
+
+.container h3{
+	text-align: center;
+	font-family:'Handlee', cursive;
+	font-size: 30px;
+}
+
+
+
+.filas_imagenes img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 2px auto;
+
+}
+.descripcion_general{
+	text-align: justify;
+	font-family:'Handlee', cursive;
+	font-size: 16px;
+}
+.descripcion{
+	text-align:justify;
+	font-family:'Handlee', cursive;
+	font-size: 16px;
+}
+
+.nombre_paleta{	/*font-family: 'Handlee', cursive;*/
+	font-family: 'Great Vibes', cursive;
+	font-size: 35px;
+	text-align: center;
+}
+.descripcion{
+	font-family: 'Handlee', cursive;
+	text-align: center;
+	font-size: 15px;
+}
+.precio{
+	font-family: 'Handlee', cursive;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+/*Para titulos, subtitulos ydespues de subtitulos*/
+h2.tituloSecciones{	
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	color: #fb8001;
+	text-align: center;
+}
+.subtitulo{
+	font-family: 'Handlee', cursive;
+	font-size: 25px;
+	color: #0eba9a;
+	text-align: center;
+}
+.despuesSubtitulo{
+	font-family: 'Handlee', cursive;
+	font-size: 20px;
+	color: #712a49;
+	text-align: center;
+}
+.detalleEvento{
+	font-family: 'Handlee', cursive;
+	font-size: 18px;
+	color: black;
+	text-align: justify;
+}
+.imagenes{
+	height: 60%;
+	width: 100%;
+	padding-top: 25px;	
+}
+
+
+/*seccion pedidos*/
+
+hr{
+  height: 2px;
+  margin-left: 34%;
+  margin-right: 50%;
+  margin-top: 0.5px;
+  background-color:#0afff6;  
+}
+
